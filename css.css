@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+.navbar {
+	width: 99%;
+    	height: 64px;
+	border-color: black black #FBC502;
+	border-width: 4px;
+	border-style: solid;
+}
+
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-menu li {
+	display: inline-block;
+} 
+
+.navbar-menu a {
+	display: inline-block;
+	color: #E9AF09;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+	transition: color 0.15s ease-in-out;
+} 
+
+.navbar-menu p {
+	display: inline-block;
+	color: #4F1257;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+} 
+
+.navbar-menu a:hover {
+	color: #4F1257;
+} 
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#block1 {
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#block2{
+	margin-bottom: 25px;
+}
+
+#dow {
+    padding: 16px;
+    color: #E9AF09;
+	font-size: 24px;
+    background-color: #4F1257;
+	text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+#dow:hover {
+    background-color: #E9AF09;
+    color: #4F1257;
+}
+
+#logo {
+	margin-left: 20px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+#posh {
+	font-size: 28px;
+}
+
+#sas {
+	text-decoration: none;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.tab {
+	margin-top: 32px;
+	font-size: 24px;
+	border-color: #BF8F01;
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+.tab a {
+	text-decoration: none;
+}
+
+#down {
+	color: #00E016;
+}
+
+
+.sukanames {
+	background-color: #BF8F01;
+}
+
+.tab td {
+	padding: 4px;
+}
+
+.names {
+	 color: #E9AF09;
+}
+
+body {
+    background-color: black;
+}
+
+.newssi a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.newssi p {
+	color: #808080;
+}
+
+#blos {
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+#dowblos {
+    padding: 16px;
+    color: #E9AF09;
+	font-size: 24px;
+    background-color: #4F1257;
+	text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+	margin-left: 48px;
+}
+
+#dowblos:hover {
+    background-color: #E9AF09;
+    color: #4F1257;
+}
